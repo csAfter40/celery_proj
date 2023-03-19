@@ -30,10 +30,14 @@ colorama==0.4.6
     # via click
 django==4.1.7
     # via -r requirements.in
+django-environ==0.10.0
+    # via -r requirements.in
 kombu==5.2.4
     # via celery
 prompt-toolkit==3.0.38
     # via click-repl
+psycopg2==2.9.5
+    # via -r requirements.in
 pytz==2022.7.1
     # via celery
 six==1.16.0
