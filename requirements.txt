@@ -32,6 +32,8 @@ django==4.1.7
     # via -r requirements.in
 django-environ==0.10.0
     # via -r requirements.in
+gunicorn==20.1.0
+    # via -r requirements.in
 kombu==5.2.4
     # via celery
 prompt-toolkit==3.0.38
@@ -55,3 +57,6 @@ wcwidth==0.2.6
     # via prompt-toolkit
 whitenoise==6.4.0
     # via -r requirements.in
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
