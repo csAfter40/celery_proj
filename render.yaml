@@ -2,6 +2,7 @@ databases:
   - name: celery_proj
     databaseName: celery_proj
     user: celery_proj
+    plan: free
 
 services:
   - type: web
