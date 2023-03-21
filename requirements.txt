@@ -8,8 +8,6 @@ amqp==5.1.1
     # via kombu
 asgiref==3.6.0
     # via django
-backports-zoneinfo==0.2.1
-    # via django
 billiard==3.6.4.0
     # via celery
 celery==5.2.7
@@ -28,7 +26,7 @@ click-repl==0.2.0
     # via celery
 colorama==0.4.6
     # via click
-django==4.1.7
+django==3.2.18
     # via -r requirements.in
 django-environ==0.10.0
     # via -r requirements.in
@@ -41,12 +39,12 @@ prompt-toolkit==3.0.38
 psycopg2==2.9.5
     # via -r requirements.in
 pytz==2022.7.1
-    # via celery
+    # via
+    #   celery
+    #   django
 six==1.16.0
     # via click-repl
 sqlparse==0.4.3
-    # via django
-tzdata==2022.7
     # via django
 vine==5.0.0
     # via
